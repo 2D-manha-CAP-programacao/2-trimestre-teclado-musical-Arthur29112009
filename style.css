@@ -31,8 +31,8 @@ h2{
 }
     
 .teclado{
-    background: linear-gradient(90deg, rgba(42, 123, 123));
-    box-shadow: 6px 8px  0 6px ;
+    background: linear-gradient(90deg, --azul)
+    box-shadow: 100px 80px 6px ;
     border-radius: 30px;
     display: grid;
     gap: 10px;
