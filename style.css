@@ -1,16 +1,17 @@
 /* Definição de variáveis globais de cores */
 :root {
   --cinza: #100f0f;               /* Cinza usado em sombras */
-  --vermelha: #7932dc;         /* Vermelho principal */
+  --vermelha: #f00808;         /* Vermelho principal */
   --vermelha-escura: #1d1d64;  /* Vermelho mais escuro para efeito */
   --branca: #fff;              /* Branco */
   --luz: #478098;              /* Cor de luz (rosa claro) */
+  --azul: #041bec;
 }
 
 /* Estilos gerais do body */
 body {
   align-items: center; /* Centraliza os elementos verticalmente */
-  background: url(./img/pngtree-stars-five-pointed-star-wallpaper-background-blue-picture-image_1310527.jpg) no-repeat center center fixed; 
+  background: url(azul\ claro.avif) no-repeat center center fixed; 
   background-size: cover;   /* Ajusta a imagem para cobrir toda a tela sem distorcer */
   display: flex;            /* Layout flexível */
   justify-content: center;  /* Centraliza horizontalmente */
@@ -22,14 +23,14 @@ body {
 
 /* Estilo do título principal */
 h1 {
-  color: var(--branca);   /* Cor branca */
+  color: var(--vermelha);   /* Cor vermelha */
   margin-bottom: 20px;    /* Espaço inferior */
   font-size: 2rem;        /* Tamanho da fonte */
 }
 
 /* Estilo do subtítulo */
 h2 {
-  color: var(--branca);   /* Cor branca */
+  color: var(--azul);   /* Cor branca */
   margin-bottom: 20px;    /* Espaço inferior */
   font-size: 1.5rem;      /* Tamanho da fonte */
 }
@@ -47,7 +48,7 @@ h2 {
 
 /* Estilo dos botões (teclas) */
 .tecla {
-  background-color: var(--branca);   /* Fundo branco */
+  background-color: var(--vermelha);   /* Fundo branco */
   border-radius: 30px;               /* Bordas arredondadas */
   box-shadow: 3px 3px 0 var(--cinza);/* Sombra leve */
   color: var(--vermelha);            /* Texto em vermelho */
